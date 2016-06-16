@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { createStore } from 'redux'
 import Panel from './components/Panel'
-import panel from './reducers'
+import reducer from './reducers'
 
-const store = createStore(panel)
+const store = createStore(reducer)
 const rootEl = document.getElementById('root')
 
 function render() {
